@@ -6,6 +6,7 @@ certifi==2019.11.28
 chardet==3.0.4
 Click==7.0
 cloud-init==23.1.2
+cloud-init-gen==1.2.0
 colorama==0.4.3
 command-not-found==0.3
 configobj==5.0.6
@@ -65,7 +66,7 @@ python-apt==2.0.1+ubuntu0.20.4.1
 python-dateutil==2.9.0.post0
 python-debian===0.1.36ubuntu1
 python-dotenv==1.0.1
-PyYAML==5.3.1
+PyYAML==6.0.1
 requests==2.22.0
 requests-unixsocket==0.2.0
 SecretStorage==2.3.1
