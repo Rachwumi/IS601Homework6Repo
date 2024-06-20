@@ -1,7 +1,6 @@
 import logging
 from app.commands import Command
 
-
 class MenuCommand(Command):
     def execute(self, commands):
         result = 'Here is the Menu of available commands: '

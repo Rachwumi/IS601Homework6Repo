@@ -2,7 +2,7 @@
 
 from decimal import Decimal
 from app.calculator.calculation import Calculation as calc
-from app.calculator.History import Calculator_History as log
+from app.calculator.history import Calculator_History as log
 
 def test_addcalc():
     '''Test that the calculation history addCalculation() method works ''' 

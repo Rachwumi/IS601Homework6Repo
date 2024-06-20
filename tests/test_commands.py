@@ -10,7 +10,7 @@ def test_app_subtract_command(capfd, monkeypatch):
     app = App()
     with pytest.raises(SystemExit):
         app.start()  # Assuming App.start() is now a static method based on previous discussions
-    captured = capfd.readouterr()
+    captured = capfd.readouterr()#get output
     assert "The value of 12 - 2 is equal to 10" in captured.out
 
 def test_app_divide_command(capfd, monkeypatch):

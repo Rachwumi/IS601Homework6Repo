@@ -10,9 +10,6 @@ from dotenv import load_dotenv
 import logging
 import logging.config
 
-
-
-
 class App:
     def __init__(self): # Constructor
         os.makedirs('logs', exist_ok=True)
