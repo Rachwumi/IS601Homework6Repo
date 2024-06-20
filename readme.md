@@ -1,2 +1,1 @@
-Homework6 for IS601 
-Updated Ubuntu version
+Homework6 for IS601
